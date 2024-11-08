@@ -1,5 +1,3 @@
-# Project Name
-
 ## Overview
 
 This project is a web application that implements several security measures, including Cross-Origin Resource Sharing (CORS), CSRF protection, rate limiting, and JSON Web Tokens (JWT) for secure user authentication.
