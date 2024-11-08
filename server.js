@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 require("dotenv").config();
 
-const allowedOrigins = ['http://localhost:3000', 'http://localhost:3001', 'https://insight-iq-task.vercel.app/', 'https://insightiq-task.onrender.com'];
+const allowedOrigins = ['http://localhost:3000', 'http://localhost:3001', 'https://insight-iq-task.vercel.app', 'https://insightiq-task.onrender.com'];
 
 app.use(cors({
     origin: function (origin, callback) {
